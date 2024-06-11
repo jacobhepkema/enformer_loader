@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Many functions adapted from Adapted from
+# Many functions adapted from
 # https://github.com/wconnell/enformer-finetune/blob/c2145a628efcb91b932cc063a658e4a994bc4baa/eft/preprocess.py
 
 import numpy as np
