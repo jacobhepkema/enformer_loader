@@ -41,7 +41,7 @@ def main(chrom_sizes_file, bw_path, n_seq, output_file, exclude_list_path=None,
                 # Do not include regions where all values are 0
                 if not np.all(np.array(binned_values) == 0): 
                     found = True
-                    row_data = f"{chrom}\t{start}\t{end}\t{','.join(map(str, binned_values))}\n"
+                    row_data = f"{chrom}\t{start}\t{end}\t[{','.join(map(str, binned_values))}]\n"
                     f.write(row_data)
     print(f"Dataset saved to {output_file}")
 
