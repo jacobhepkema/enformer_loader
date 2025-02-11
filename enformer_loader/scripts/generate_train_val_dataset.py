@@ -130,7 +130,7 @@ if __name__ == '__main__':
     parser.add_argument('--bin_size', type=int, default=128,
                         help='Size of each bin (default: 128)')
     parser.add_argument('--padding', type=int, default=0,
-                        help='Amount of padding to add to each side of the region later (default: 0)')
+                        help='Amount of padding to add to each side of the region later, in basepairs (default: 0)')
     parser.add_argument('--seed', type=int, default=1337,
                         help='Random seed (default: 1337)')
     parser.add_argument('--use_sum', action='store_true',
